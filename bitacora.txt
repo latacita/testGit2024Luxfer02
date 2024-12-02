@@ -9,3 +9,4 @@
 (01) 	git clone
 (02)	nano bitacora.txt
 (04) 	git checkout -b PrimeraRama
+(11)	git stash
