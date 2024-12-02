@@ -8,4 +8,13 @@
 ====== ============================ ================================
 (01) 	git clone
 (02)	nano bitacora.txt
-
+(08)	git push --set-upstream 
+	origin SegundaRama
+(09)	git checkout master
+(17)	git checkout PrimeraRama
+(18)	git merge SegundaRama
+	nano bitacora.txt
+	git add bitacora.txt
+	git commit
+(19)	git checkout master
+(20)	git stash pop
