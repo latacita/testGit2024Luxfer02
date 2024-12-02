@@ -10,3 +10,20 @@
 (02)	nano bitacora.txt
 (04) 	git checkout -b PrimeraRama
 (06) 	git checkout -b SegundaRama
+(14)	recursiva		     SegundaRama ha divergido de PrimeraRama,
+				     y PrimeraRama ha avanzado en una version mas
+				     por ende, cuando se traten de fusionar los
+				     cambios no se puede simplemente traer
+				     lo de la segundaRama, ya que la primera rama 
+                                     puede haber cambiado en las mismas 
+                                     lineas o en otras por ejemplo, 
+                                     debe fusionarse de manera recursiva.	
+
+(15)	recursiva	             Ya que en el paso 10, se ha detectado 
+				     que el repositorio remoto iba por delante
+				     se ha hecho un pull y se han solucionado 
+				     conflictos del merge, por ende, se ha creado
+				     una nueva version de main, y por lo mismo 
+				     que antes la fusion sera recursiva.
+
+(13) git checkout SegundaRama
